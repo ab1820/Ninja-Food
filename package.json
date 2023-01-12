@@ -4,7 +4,8 @@
   "description": "first tailwind css project - learning tailwind css",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build -i src/main.css -o public/main.css"
+    "build-css": "tailwindcss build -i src/main.css -o public/main.css",
+    "dev": "npm run build-css --watch"
   },
   "keywords": [],
   "author": "Amanda Buttineau",
